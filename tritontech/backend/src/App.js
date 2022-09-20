@@ -23,7 +23,6 @@ const particlesLoaded = useCallback(async (container) => {
     await console.log(container);
 }, []);
 
-//mohamed mydeen abdul kader
   return (
     <div className='App' >
       
