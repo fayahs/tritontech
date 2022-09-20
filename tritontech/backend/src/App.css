@@ -375,6 +375,16 @@ justify-content: space-evenly ;
 .content-circle{
   width: 100%;
   height: 40%;
-  opacity: 0.5;
-  background-color:red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.process-circle{
+  width: 15%;
+  height: 90%;
+  border-radius: 50%;
+  background:yellow;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
 }
