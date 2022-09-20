@@ -18,7 +18,7 @@ function App() {
 
     await loadFull(engine);
 }, []);
-
+//mak
 const particlesLoaded = useCallback(async (container) => {
     await console.log(container);
 }, []);
