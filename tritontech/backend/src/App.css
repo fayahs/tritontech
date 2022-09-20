@@ -37,32 +37,6 @@ justify-content: flex-start;
 
 }
 
-.home-content{
-  width: 50%;
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0px 0px 80px 100px; 
-}
-.triton-logo{
-  display: flex;
-  width: 20%;
-  height: 20%;
-  position: fixed;
-  z-index: 999;
-}
-.home-content1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.home-content-img{
-  width: 90%;
-  height: auto;
-  -webkit-animation: mover 2s infinite  alternate;
-  animation: mover 2s infinite  alternate;
-}
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-20px); }
@@ -186,25 +160,15 @@ height: auto;
   position: relative;
   width: 100%;
 }
-.home-content-btn{
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+
 .container section{
   position: relative;
   width: 100%;
   height: 100vh;
   line-height: 100vh;
+  /* background-color: red; */
 }
 
-
-.container section:nth-of-type(2n+1){
-  background: #ffffff;
-}
-.container section:nth-of-type(2n){
-  background: #ffffff;
-}
 .container section h1{
   text-align: center;
   font-size: 70px;
@@ -221,6 +185,7 @@ height: auto;
   height:80px;
   box-sizing: border-box;
   z-index: 999;
+  /* background-color: red; */
 }
 .container ul li{
   list-style: none;
@@ -243,6 +208,7 @@ height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: red; */
 
 }
 li.a :focus{
@@ -259,122 +225,4 @@ li.a :focus{
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
-}
-
-.About-content-hr{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background: #ffffff;
-}
-.About-content-empty-header{
-  width: 100%;
-  height: 15%;
-}
-.About-content-hr-attributes{
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-.About-content-hr-attributes-img{
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.About-img:hover{
-  -webkit-animation: anime 2s infinite  alternate;
-  animation: anime 2s infinite  alternate;
-}
-@-webkit-keyframes anime  {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-20px); }
-}
-@keyframes anime {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-20px); }
-}
-.About-content-hr-attributes-imgs{
-  width: 50%;
-  height: 100%; 
-  display: flex;
-  flex-direction: column;
-}
-.About-header{
-  width: 100%;
-  height: 10%;
-  display: flex;
-  align-items: center ;
-}
-.About-header1{
-  min-width: 100%;
-  height: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.About-header2{
-  width: 100%;
-  height: 30%;
-    display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
-  justify-content: center;
-}
-.About-content{
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column  ;
-}
-.About-header3{
-  width: 100%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-}
-.About-header3-contents{
-width: 100%;
-height: 25%;
-display: flex;
-align-items: center;
-justify-content: space-evenly ;
-}
-.blob{
-  width: 10%;
-  height: 70%;
- border-radius:  55% 45% 70% 30% / 65% 44% 56% 35%  ;
- display: flex;
- align-items: center;
- justify-content: center  ;
- box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-}
-.processer-content-hr{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.Process-main{
-  width: 100%;
-  height: 100%;
-  background:url(./images/R.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size:100% 50% ;
-
-
-}
-.content-circle{
-  width: 100%;
-  height: 40%;
-  opacity: 0.5;
-  background-color:red;
 }
