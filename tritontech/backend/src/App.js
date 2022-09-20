@@ -10,6 +10,8 @@ import {BiBasketball} from 'react-icons/bi'
 import {ImArrowRight2} from 'react-icons/im'
 import {FaDigitalOcean} from 'react-icons/fa'
 import {MdHealthAndSafety} from 'react-icons/md'
+import img4 from './images/3dicons.png'
+import img5 from './images/share-2.png'
 import 'animate.css';
 import img3 from './images/img-about-01.png'
 function App() {
@@ -482,7 +484,19 @@ const particlesLoaded = useCallback(async (container) => {
       </div>
       <div className='Process-main'>
             <div className='content-circle'>
+            <div className='process-circle'>
+                   <img src={img4} alt='' style={{width:'50%',height:'50%'}}/>
 
+                 </div>
+                 <div className='process-circle'>
+                 <img src={img5} alt='' style={{width:'50%',height:'50%'}}/>
+            </div>
+         <div className='process-circle'>
+
+           </div>
+           <div className='process-circle'>
+
+</div>
             </div>
       </div>
         </div>
