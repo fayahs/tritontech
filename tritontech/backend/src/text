@@ -1,0 +1,41 @@
+
+               < Typical
+               loop = { Infinity }
+               wrapper = " b "
+               steps = { [
+                 ' developer '
+                 1000 ,
+                 ' designer
+                 1000 ,
+                 ' YouTuber
+                 1000 ,
+                 ' Open Sourcer '
+                 1000 ,
+                 ' beatboxer ( wannabe ) '
+                 1000 ,
+                 ' husband ' ,
+                 1000 ,
+                 'father',
+                  1000
+                 ] }
+                 / >
+                 < Typical
+                 loop = { Infinity }
+                 wrapper = " b "
+                 steps = { [
+                   ' developer ',
+                   1000 ,
+                   ' designer',
+                   1000 ,
+                   ' YouTuber',
+                   1000 ,
+                   ' Open Sourcer ',
+                   1000 ,
+                   ' beatboxer ( wannabe ) ',
+                   1000 ,
+                   ' husband ' ,
+                   1000 ,
+                   'father',
+                    1000
+                   ] }
+                   />
