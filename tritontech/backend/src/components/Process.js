@@ -2,20 +2,13 @@ import React from 'react'
 // import '../Styles/Process.css';
 import '../Styles/Process.css';
 import {  Typography } from '@material-ui/core';
-// import img4 from '../images/3dobj2.png';
-// import img5 from '../images/3dobj2.png';
-// import img6 from '../images/3dobj2.png';
-// import img7 from '../images/3dobj2.png';
+
 import img4 from '../images/3dicons.png'
 import img5 from '../images/share-2.png'
 import img6 from '../images/cloud-development.png'
 import img7 from '../images/icon3.png'
-import {BsArrowDownCircleFill,BsDot} from 'react-icons/bs'
-import {BiBasketball} from 'react-icons/bi'
-import {ImArrowRight2} from 'react-icons/im'
-import {FaDigitalOcean} from 'react-icons/fa'
+import {BsDot} from 'react-icons/bs'
 import {BiDotsVerticalRounded} from 'react-icons/bi'
-import {MdHealthAndSafety} from 'react-icons/md'
 
 
 function Process() {
