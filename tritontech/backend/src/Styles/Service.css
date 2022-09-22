@@ -1,6 +1,8 @@
+
+
 .Service-main{
     width: 100%;
-    height: 100%;
+    height: 100% ;
     display: flex;
     flex-direction: column;
 }
@@ -9,25 +11,21 @@ width: 100%;
 height: 100%;
 display: flex;
 flex-direction: column;
-background: red;
-}
+    }
 .Service-main-hr-content1{
    width: 100%;
    height: 20%;
    display: flex;
-   background:yellow;
    flex-direction: column;
    justify-content: center  ;
    align-items: center;
 }
 .Service-main-hr-content2{
-    padding-top: 20px;
     width: 100%;
-    height: 80%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
-    background: greenyellow;
+    flex-direction: column;
 }
  

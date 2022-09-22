@@ -6,7 +6,7 @@ import Crad from "../Background/Card";
 function Service(){
     return(
         <div className="Service-main">
-               <div className='About-content-empty-header'  style={{background:'white'}}>
+               <div className='About-content-empty-header'  style={{minHeight:'100px'}}>
       </div>
       <div className="Service-main-hr">
             <div className="Service-main-hr-content1">
