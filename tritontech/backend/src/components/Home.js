@@ -3,7 +3,7 @@ import '../Styles/Home.css';
 import Particles from 'react-tsparticles';
 import img2 from '../images/3dobj2.png';
 import { useCallback } from 'react';
-import { Button, Typography } from '@material-ui/core';
+  import { Button, Typography } from '@material-ui/core';
 import { loadFull } from 'tsparticles';
 
 function Home() {
