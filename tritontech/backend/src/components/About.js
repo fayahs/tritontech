@@ -45,7 +45,7 @@ function About() {
                   <div className='About-header3-contents' style={{ display: 'flex', alignItems: 'center', paddingLeft: '15px' }}>
                     <div style={{ width: '70%', height: '100%', display: 'flex', alignItems: 'center' }}>
                       <Typography variant='h6'>
-                        <span style={{ fontSize: '25px', color: 'grey' }}> Reasons</span> why We might be the right fit for you
+                        <span style={{ fontSize: '25px', color: 'gray' }}> Reasons</span> why We might be the right fit for you
                       </Typography>
                     </div>
                     <div className='About-icon'
@@ -81,6 +81,7 @@ function About() {
                     </Typography>
                   </div>
                   <div className='About-header3-contents'>
+                    
                     <div className='blob' style={{ background: 'rgb(255, 184, 0)' }}>
                       <MdHealthAndSafety size={28} color='#ffffff' />
                     </div>

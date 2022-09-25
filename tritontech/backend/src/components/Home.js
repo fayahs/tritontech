@@ -1,20 +1,20 @@
 import React from 'react'
 import '../Styles/Home.css';
-import Particles from 'react-tsparticles';
+// import Particles from 'react-tsparticles';
 import img2 from '../images/3dobj2.png';
-import { useCallback } from 'react';
+// import { useCallback } from 'react';
   import { Button, Typography } from '@material-ui/core';
-import { loadFull } from 'tsparticles';
+// import { loadFull } from 'tsparticles';
 
 function Home() {
-    const particlesInit = useCallback(async (engine) => {
-        console.log(engine);
+    // const particlesInit = useCallback(async (engine) => {
+    //     console.log(engine);
     
-        await loadFull(engine);
-      }, []);
-      const particlesLoaded = useCallback(async (container) => {
-        await console.log(container);
-      }, []);
+    //     await loadFull(engine);
+    //   }, []);
+    //   const particlesLoaded = useCallback(async (container) => {
+    //     await console.log(container);
+    //   }, []);
   return (
     <div className='home'>
          <div className='triton-logo'>
@@ -54,7 +54,7 @@ function Home() {
 
 
 
-          <Particles
+          {/* <Particles
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
@@ -348,7 +348,7 @@ function Home() {
                 }
               }
             }}
-          />
+          /> */}
 
 
     </div>

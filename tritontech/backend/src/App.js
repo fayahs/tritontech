@@ -24,41 +24,41 @@ function App() {
 
           </div>
           <div className='flex-container'>
-            <li><a href='#sec1'><Typography variant='h6' component='h6' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#Home'><Typography variant='h6' component='h6' className='App-header1' style={{ fontSize: '18px' }}>
               Home
             </Typography></a></li>
-            <li><a href='#sec2'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#About Us'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
               About us
             </Typography> </a></li>
-            <li><a href='#sec3'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#Process'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
               Process
             </Typography> </a></li>
-            <li><a href='#sec4'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#Services'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
               Services
             </Typography> </a></li>
-            <li><a href='#sec5'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            {/* <li><a href='#sec5'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
               Portfolio
-            </Typography> </a></li>
-            <li><a href='#sec6'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            </Typography> </a></li> */}
+            <li><a href='#Contact'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
               Contact
             </Typography> </a></li>
           </div>
         </ul>
 
-        <section id='sec1'>
+        <section id='Home'>
          <Home/>
         </section>
-        <section id='sec2'>
+        <section id='About Us'>
          <About/>
         </section>
-        <section id='sec3'>
+        <section id='Process'>
          <Process/>
         </section>
-        <section id='sec4'>
+        <section id='Services'>
           <Service/>
         </section>
-        <section id='sec5'><h1>Feedback</h1></section>
-        <section id='sec6'><h1>Contact</h1></section>
+        {/* <section id='sec5'><h1>Feedback</h1></section> */}
+        <section id='Contact'><h1>Contact</h1></section>
 
       </div>
     </div>
