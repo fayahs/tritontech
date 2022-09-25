@@ -1,4 +1,4 @@
-import { Typography } from '@material-ui/core';
+import { Link, Typography } from '@material-ui/core';
 import './App.css';
 import img from './images/Tritonlogo.png'
 import 'animate.css';
@@ -6,10 +6,42 @@ import Home from './components/Home';
 import About from './components/About';
 import Process from './components/Process';
 import Service from './components/Service';
-function App() {
- 
+import { HiOutlineMenu } from "react-icons/hi";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from 'react';
+import Contact from './components/Contact';
 
- 
+
+
+function App() {
+
+
+  const[sidebar,setsidebar] = useState(false)
+
+  const showSidebar = () => setsidebar(!sidebar)
+
+  const val =[
+    {
+     title:'Home' ,
+     path:''
+    },
+    {
+      title:' About Us' ,
+      path:'#sec2'
+     },
+     {
+      title:'Process' ,
+      href:"#sec4"
+     },
+     {
+      title:'Services' ,
+      path:''
+     },
+     {
+      title:'Contact' ,
+      path:''
+     }
+  ]
 
   return (
     <div className='App' >
@@ -19,36 +51,62 @@ function App() {
           <div className='logo-content'>
             <div className='logo-img'>
 
-              <img src={img} alt='triton' style={{ width: '100%', height: 'auto', marginTop: '50px' }} />
+              <img src={img} alt='triton' style={{ width: '100%', height: 'auto', marginTop: '50px'}} />
             </div>
 
           </div>
           <div className='flex-container'>
-            <li><a href='#sec1'><Typography variant='h6' component='h6' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#Home'><Typography variant='h6' component='h6' className='App-header1' style={{ fontSize: '20px' }}>
               Home
             </Typography></a></li>
-            <li><a href='#sec2'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
-              About us
+            <li><a href='#About_Us'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
+              About
             </Typography> </a></li>
-            <li><a href='#sec3'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#Process'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
               Process
             </Typography> </a></li>
-            <li><a href='#sec4'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#Service'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
               Services
             </Typography> </a></li>
-            <li><a href='#sec5'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
-              Portfolio
-            </Typography> </a></li>
-            <li><a href='#sec6'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
+            <li><a href='#Contact'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
               Contact
             </Typography> </a></li>
           </div>
-        </ul>
+        
+         <div className='navbar'>
+                <Link to='#'>
+                <GiHamburgerMenu onClick={showSidebar} fontSize={50}/>
+                </Link>
+             
+         </div>
+            <div >
+            <nav className={sidebar ? 'nav-menu-active':'nav-menu'}>
+              <div className='nav-bar'>
+              <div className='nav-menu-items'>
+                {val.map((item,index)=>{
+                  return(
+                    <div key={index} className={item.cName}>
+                      <Link to={item.href}>
+                        <span className='tittle-name'>{item.title}</span>
+                      </Link>
 
-        <section id='sec1'>
+                    </div>
+                  )
+                })}
+              </div>
+              </div>
+          </nav>
+            </div>
+          
+      
+        </ul>
+     
+        
+
+        <section id='Home'>
          <Home/>
         </section>
-        <section id='sec2'>
+        <section id='About-Us'>
          <About/>
         </section>
         <section id='sec3'>
@@ -57,8 +115,9 @@ function App() {
         <section id='sec4'>
           <Service/>
         </section>
-        <section id='sec5'><h1>Feedback</h1></section>
-        <section id='sec6'><h1>Contact</h1></section>
+        <section id='sec6'>
+          <Contact/>
+        </section>
 
       </div>
     </div>

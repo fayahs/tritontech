@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/About.css';
-import { Button, Typography } from '@material-ui/core';
+import {  Typography } from '@material-ui/core';
 import { BsArrowDownCircleFill } from 'react-icons/bs'
 import { BiBasketball } from 'react-icons/bi'
 import { ImArrowRight2 } from 'react-icons/im'
@@ -21,11 +21,7 @@ function About() {
                 <img src={img3} alt='' className='About-img' />
               </div>
               <div className='About-content-hr-attributes-imgs' style={{ background: '#ffffff' }}>
-                <div className='About-header'>
-                  <Button style={{ textTransform: 'none', fontSize: '20px', color: 'lightgreen' }} href='sec1'>
-                    About us
-                  </Button>
-                </div>
+               
                 <div className='About-header1'>
                   <Typography variant='h4' component='h2' >
                     <span className='animate__backInLeft'>What We Are?</span>
