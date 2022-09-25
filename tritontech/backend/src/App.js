@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Process from './components/Process';
 import Service from './components/Service';
+import Contact from './components/Contact';
 function App() {
  
 
@@ -36,9 +37,7 @@ function App() {
             <li><a href='#sec4'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
               Services
             </Typography> </a></li>
-            <li><a href='#sec5'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
-              Portfolio
-            </Typography> </a></li>
+       
             <li><a href='#sec6'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '18px' }}>
               Contact
             </Typography> </a></li>
@@ -57,8 +56,8 @@ function App() {
         <section id='sec4'>
           <Service/>
         </section>
-        <section id='sec5'><h1>Feedback</h1></section>
-        <section id='sec6'><h1>Contact</h1></section>
+        
+        <section id='sec6'><Contact/></section>
 
       </div>
     </div>

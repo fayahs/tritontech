@@ -17,17 +17,15 @@ function Home() {
       }, []);
   return (
     <div className='home'>
-         <div className='triton-logo'>
-            {/* <img src={img} alt='triton'/> */}
-          </div>
+         
 
           <div className='home-content' >
             
             <Typography variant='h2' component='h2' style={{ fontWeight: '700' }}>
-              <span style={{ fontWeight: '10' }}><span style={{ color: '#cf2e2e' }}> We</span> Build</span> <i style={{ color: '#2E8BC0' }}>R</i><span style={{ fontSize: '40px' }}>elatioships</span>
+              <span style={{ fontWeight: '10' }}><span style={{ color: '#cf2e2e' }}> Drawing</span> The</span> <i style={{ color: '#2E8BC0' }}>D</i><span style={{ fontSize: '35px' }}>reams</span>
             </Typography>
             <Typography variant='h2' component='h2' style={{ fontWeight: '700' }}>
-              <span style={{ fontWeight: '10' }}>More <span style={{ color: '#cf2e2e' }}>Then</span></span>  <i style={{ color: '#2E8BC0' }}>P</i><span style={{ fontSize: '40px' }}>roducts,</span>
+              <span style={{ fontWeight: '10' }}>your <span style={{ color: '#cf2e2e' }}>Digital</span></span>  <i style={{ color: '#2E8BC0',marginLeft:'20px' }}>F</i><span style={{ fontSize: '40px' }}>orms,</span>
             </Typography>
 
             <Typography style={{ fontSize: '15px' }}>
@@ -47,14 +45,14 @@ function Home() {
               </Button>
             </div>
           </div>
-          <div className='home-content1' style={{ width: '80%', height: '70%', marginTop: '20px' }}>
+          <div className='home-content1' style={{ width: '80%', height: 'auto', marginTop: '60px' }}>
 
             <img src={img2} alt='triton' className='home-content-img' />
           </div>
 
 
 
-          <Particles
+          {/* <Particles
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
@@ -348,7 +346,7 @@ function Home() {
                 }
               }
             }}
-          />
+          /> */}
 
 
     </div>
