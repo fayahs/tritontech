@@ -59,7 +59,7 @@ const Crad=()=>{
 
 <div className="card">
   <div className="face face1">
-    <div classNAme="content">
+    <div className="content">
       <span className="stars"></span>
                 Frameworks & Marketing
     </div>

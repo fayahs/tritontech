@@ -77,7 +77,7 @@ function Process() {
             <div className='process-heading'>
                <Typography variant='h6' style={{marginRight:'60px'}} >
                 Discovery & Analysis
-               </Typography>
+               </Typography> 
                <Typography variant='h6' style={{marginRight:'60px'}}>
                Architecture Design
                </Typography>
