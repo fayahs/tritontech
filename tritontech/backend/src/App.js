@@ -6,10 +6,10 @@ import Home from './components/Home';
 import About from './components/About';
 import Process from './components/Process';
 import Service from './components/Service';
+import Contact from './components/Contact';
 import { HiOutlineMenu } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from 'react';
-import Contact from './components/Contact';
 
 
 

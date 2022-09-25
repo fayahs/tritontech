@@ -1,4 +1,4 @@
-import { Button, Card, Typography } from "@material-ui/core";
+import { Button,  Typography } from "@material-ui/core";
 import React from "react";
 import '../Styles/Service.css';
 import Crad from "../Background/Card";
@@ -10,7 +10,7 @@ function Service(){
       </div>
       <div className="Service-main-hr">
             <div className="Service-main-hr-content1">
-              <Button style={{textTransform:'none',width:'10%',borderRadius:'10px',color:'#90ee90',fontSize:'20px'}}>
+              <Button style={{textTransform:'none',width:'10%',borderRadius:'10px',color:'black',fontSize:'28px'}}>
                 Service
               </Button>
               <Typography variant="h4">
