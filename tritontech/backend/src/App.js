@@ -109,10 +109,10 @@ function App() {
         <section id='About-Us'>
          <About/>
         </section>
-        <section id='sec3'>
+        <section id='Process'>
          <Process/>
         </section>
-        <section id='sec4'>
+        <section id='Services'>
           <Service/>
         </section>
         <section id='sec6'>

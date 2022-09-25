@@ -38,13 +38,13 @@ font-size: 15px!important;
 .App-header1{
   color: #000000;
 }
-#sec1{
+#Home{
 display: flex;
 align-items: center;
 justify-content: flex-start;
 
 }
-
+/* 
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-20px); }
@@ -52,7 +52,7 @@ justify-content: flex-start;
 @keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-20px); }
-}
+} */
 
  h1{
   font-family: "Montserrat Medium";
