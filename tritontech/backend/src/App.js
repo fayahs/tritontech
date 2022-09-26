@@ -22,23 +22,33 @@ function App() {
 
   const val =[
     {
-     title:'Home' ,
+     title:  <li><a href='#Home'><Typography variant='h6' component='h6' className='App-header1' style={{ fontSize: '20px' }}>
+     Home
+   </Typography></a></li> ,
      path:''
     },
     {
-      title:' About Us' ,
+      title: <li><a href='#About_Us'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
+      About
+    </Typography> </a></li> ,
       path:'#sec2'
      },
      {
-      title:'Process' ,
+      title:  <li><a href='#Process'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
+      Process
+    </Typography> </a></li>,
       href:"#sec4"
      },
      {
-      title:'Services' ,
+      title:     <li><a href='#Service'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
+      Services
+    </Typography> </a></li> ,
       path:''
      },
      {
-      title:'Contact' ,
+      title: <li><a href='#Contact'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
+      Contact
+    </Typography> </a></li> ,
       path:''
      }
   ]
@@ -47,6 +57,7 @@ function App() {
     <div className='App' >
 
       <div className="container">
+        
         <ul>
           <div className='logo-content'>
             <div className='logo-img'>
@@ -59,7 +70,7 @@ function App() {
             <li><a href='#Home'><Typography variant='h6' component='h6' className='App-header1' style={{ fontSize: '20px' }}>
               Home
             </Typography></a></li>
-            <li><a href='#About_Us'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
+            <li><a href='#About-Us'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
               About
             </Typography> </a></li>
             <li><a href='#Process'><Typography variant='h6' component='h2' className='App-header1' style={{ fontSize: '20px' }}>
@@ -75,12 +86,12 @@ function App() {
         
          <div className='navbar'>
                 <Link to='#'>
-                <GiHamburgerMenu onClick={showSidebar} fontSize={50}/>
+                <GiHamburgerMenu onClick={showSidebar} fontSize={40} fontWeight={50}/>
                 </Link>
              
          </div>
             <div >
-            <nav className={sidebar ? 'nav-menu-active':'nav-menu'}>
+            <nav style={{display:sidebar?'block':'none'}}  className='navbars'>
               <div className='nav-bar'>
               <div className='nav-menu-items'>
                 {val.map((item,index)=>{
@@ -112,10 +123,10 @@ function App() {
         <section id='Process'>
          <Process/>
         </section>
-        <section id='Services'>
+        <section id='Service'>
           <Service/>
         </section>
-        <section id='sec6'>
+        <section id='Contact'>
           <Contact/>
         </section>
 

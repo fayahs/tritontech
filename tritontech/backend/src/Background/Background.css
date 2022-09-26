@@ -1,104 +1,120 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-.container2{
-    display: flex;
-    flex-direction:row;
-    width: 100%;
-   padding: 20px;
-    height: 100%;
-    justify-content: space-around;
-}
-.container3{
-  display: flex;
-  width: 100%;
-  min-height: 50%;
-  align-items: center;
-  justify-content: center;
-}
-.container2 .card {
-  position: relative;
-  width: 250px;
-  height: 28 0px;
-  display: flex;
-  justify-content: center;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.container2 .card .face {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.Main-card{
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 20px;
 }
-.container2 .card .face.face1 {
-  box-sizing: border-box;
-  
-  padding: 20px;
+@media only screen and (max-width:600px) {
+  .Main-card1{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .wrapper{
+    height: 100px !important;
+    width: 150px !important;
+  }
+.para2{
+  font-size: 10px !important;
 }
- .container2 .card .face.face1 h2 {
-  margin: 0;
-  padding: 0;
+.tranformation-img{
+  width: 1;
 }
-.container2 .card .face.face1 .java {
-  background-color: #fffc00;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
 
+
+.wrapper{
+  position: relative;
+  height: 220px;
+  width: 300px;
+  perspective: 1000px;
 }
-.container2 .card .face.face1 .python {
-  background-color: #00fffc;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
- .container2 .card .face.face1 .cSharp {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
- .container2 .card .face.face2 {
-  transition: 0.5s;
-}
-.container2 .card .face.face2 h2 {
-  margin: 0;
-  padding: 0;
-  font-size: 10em;
-  height: fit-content;
-  color: #fff;
-  transition: 0.5s;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-.content{
-  width: 100%;
+.wrapper .flip-card{
+  position: relative;
   height: 100%;
+
+  width: 100%;
+  background: #ffffff;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
   display: flex;
   align-items: center;
-  text-align: center;
-  transition: ease 0.5s;
   justify-content: center;
-}
-.container2 .card:hover .face.face2 {
-  height: 60px;
-}
- .container2 .card:hover .face.face2 .card-img {
-
- display: none;
-}
-
-
- .container2 .card:nth-child(1) .face.face2 {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
   background: #ffffff;
-  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  backface-visibility: hidden;
+  position: absolute;
 }
-.container2 .card:nth-child(2) .face.face2 {
-  background: #ffffff;
-  border-radius: 15px;
+.card span.circle,
+.card span.square{
+  height: 110px;
+  width: 110px;
+  border: 10px solid #4d2600;
 }
- .container2 .card:nth-child(3) .face.face2 {
-  border-radius: 15px;
-  background: #ffffff;
+.card span.circle{
+  border-radius: 50%;
+}
+.card span.triangle{
+  position: relative;
+  height: 0;
+  width: 0;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 110px solid #4d2600;
+  margin-right: 16px;
+}
+.card span.triangle::before{
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: -40px;
+  top: 20px;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 80px solid #D48600;
+}
+.back.card{
+  transform: rotateY(180deg);
+}
+.back.card .home-logo{
+  position: relative;
+  height: 65px;
+  width: 65px;
+  border: 5px solid #4d2600;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.home-logo .icon{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(6px);
+  display: inline-block;
+  height: 15px;
+  width: 25px;
+  background: #4d2600;
+}
+.home-logo .icon::before{
+  content: "";
+  position: absolute;
+  top: -15px;
+  height: 25px;
+  width: 25px;
+  background: #4d2600;
+  transform: rotate(45deg);
+}
+.back.card .num{
+  font-size: 25px;
+  font-weight: 600;
+  color: #4d2600;
 }
