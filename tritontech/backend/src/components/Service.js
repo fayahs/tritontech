@@ -10,13 +10,11 @@ function Service(){
       </div>
       <div className="Service-main-hr">
             <div className="Service-main-hr-content1">
-              <Button style={{textTransform:'none',width:'10%',borderRadius:'10px',color:'black',fontSize:'28px'}}>
+              <Button style={{textTransform:'none',width:'10%',borderRadius:'10px',color:'black',fontSize:'20px'}}>
                 Service
               </Button>
-              <Typography variant="h4">
-              We ship success every day .
-              </Typography>
-              <Typography variant="h5">
+            
+              <Typography variant="h5" className="para1">
               what can we do for you?
               </Typography>
             </div>

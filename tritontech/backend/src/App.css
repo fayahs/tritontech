@@ -17,16 +17,10 @@ html{
   width: 50%;
   height: 100%;
 
-}@media only screen and (max-width: 600px) {
+}
 .App-header1{
 color: #000000;
-font-size: 15px!important;
-/* margin-right: 100% !important; */
-/* display: flex; */
 }
-
-}
-
 
 .App-header1:focus{
   border-top:2px solid yellow ; 
@@ -35,8 +29,7 @@ font-size: 15px!important;
   color: blue;
   border-top:2px solid yellow ;
 }
-.App-header1{
-  color: #000000;
+.App-header1.a:active{
 }
 #Home{
 display: flex;
@@ -167,8 +160,6 @@ height: auto;
 .container{
   position: relative;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 .container section{
@@ -186,9 +177,9 @@ height: auto;
 }
 
 .container ul{
-  /* position: fixed;  */
-   /* top: 0;  
-   left: 0; */
+  position: fixed;
+  top: 0; 
+  left: 0;
   width: 100%;
   justify-content: flex-end;
   display: flex;
@@ -206,151 +197,10 @@ height: auto;
   float: left;
 }
 .flex-container{
-  background-color: gray;
-  width: 80%;
+  width: 50%;
   display: flex;
-  flex-direction: row;
-  /* min-height: 300px !important; */
-  /* justify-content:flex-end !important; */
-  /* margin-left:30%; */
-}
-@media only screen and (max-width: 600px) {
-  .flex-container{
-    display: none !important;
-    background-color: yellow;
-    font-size: small;
-  } 
-}
-.nav-menu{
-  background-color: green;
-  width: 40%;
-  height: 50%;
-  display:flex;
-  position: fixed;
-  left:30%;
-  top: 15%;
-  align-items: center;
-  /* display: flex;
-  justify-content: center;
-  position: relative;
-  margin-top: 100%;
-  min-height: 100% !important;
-  width: 100%;
-  flex-direction: row;
-  transition: 850ms; */
-}
-.nav-menu.active{
-  left: auto;
-  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-  display: flex;
-  flex-direction: row;
-  
-   /* left: 0; 
-  transform: 350ms; */
-}
-.nav-bar{
-  display: flex;
-  flex-direction: row;
-  height: 70%;
-  width: 100%;
-  justify-content: space-around;
-}
-.nav-menu-items{
-  /* min-height: auto; */
-  display: flex ;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  font-weight: 900;
-  width: 100%;
-  background-color: aqua;
-
-}
-.tittle-name{
-  width: 100%;
-  background-color: blueviolet;
-
-    display: flex;
-    align-items: center;
-
-    font-size: 10px;
-}
-.navbar{
-  width: 10%;
-
-    height: 90%;
-
-    display: flex;
-
-    flex-wrap: wrap;
-
-    justify-content: center;
-
-    align-items: center;
-
-    cursor: pointer;
-}
-
-@media only screen and (min-width: 600px) {
-  .menu-resp{
-    display: none !important;
-    
-  }
-
-  
-  /* .nav-menu{
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    
-    position: fixed;
-    top: 0;
-    transition: 850ms;
-  }
-  .nav-menu.active{
-    left: 0;
-    transform: 350ms    ;
-  } */
-/* .flex-container{
-  /* background-color: green; */
-  /* min-width: 100% !important;
-  display: flex !important;
-  display: none;
-  flex-direction: column;
-  align-items: flex-end !important;
-  height: 30vh !important;
-  justify-content:flex-end !important;
-  z-index: 999 !important;
-  position: fixed; */
-  /* margin-left:30%; */
-/* }
- li{
-  background-color: blueviolet;
   height: 100%;
-  min-width:100%;
-  display: flex !important; */
-  /* margin-left: 80%; */
-  
-/* }
-.App-header1{
-  display: none;
 }
-.cons{
-  background-color:blueviolet;
-} */ 
-}
-
-.icon{
-  /* background-color: red; */
-  color:black;
-  font-size: 30px;
-  line-height: 80px;
-  float: right;
-  margin-right: 40px;
-  cursor: pointer;
-  /* display: none; */
-}
-
 .container ul li a{
   width: 80%;
   height: 100%;
