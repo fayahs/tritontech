@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/About.css';
 import {  Typography } from '@material-ui/core';
-import { BsArrowDownCircleFill } from 'react-icons/bs'
+// import { BsArrowDownCircleFill } from 'react-icons/bs'
 import { BiBasketball } from 'react-icons/bi'
 import { ImArrowRight2 } from 'react-icons/im'
 import { FaDigitalOcean } from 'react-icons/fa'
@@ -24,28 +24,30 @@ function About() {
                
                 <div className='About-header1'>
                   <Typography variant='h4' component='h2' >
-                    <span className='animate__backInLeft'>What We Are?</span>
+                    <span className='animate__backInLeft'>Who We Are? </span>
                   </Typography>
                 </div>
                 <div className='About-header2'>
                   <Typography component='h2' variant='h6'>
-                    TRITON TECH LABS PVT LTD  <span style={{ fontSize: '15px' }}>happens to be one of the pioneering</span>
+                  Triton as a digital technologist provides solutions such as   <span style={{ fontSize: '15px' }}> </span>
                     <span className='About-content'>
-                      <span>creative, and most importantly client-friendly digital service providers in the</span>
-                      <span> market. Seamless collaboration, total transparency, secure delivery. We’ve</span>
-                      <span> developed a better approach to custom software development </span>
+                      <span>Help constructing your business into a digital product, </span>
+                      <span>Help you modernize your legacy business platform into a modern business platform, using the latest technologies. </span>
+                      <span>Help you in transforming your business to Cloud solutions. </span>
+                      <span>Help you in automating your day-to-day activities by providing customized digital solutions. </span>
                     </span>
                   </Typography>
                 </div>
                 <div className='About-header3'>
                   <div className='About-header3-contents' style={{ display: 'flex', alignItems: 'center', paddingLeft: '15px' }}>
                     <div style={{ width: '70%', height: '100%', display: 'flex', alignItems: 'center' }}>
-                      <Typography variant='h6'>
-                        <span style={{ fontSize: '25px', color: 'gray' }}> Reasons</span> why We might be the right fit for you
-                      </Typography>
+                      {/* <Typography variant='h6'>
+                        <span style={{ fontSize: '25px', color: 'gray',padding:'5px',background:"red" }}> Reasons</span> why We might be the right fit for you
+                      </Typography> */}
                     </div>
                     <div className='About-icon'
                       style={{
+              
                         width: '30%',
                         height: '100%',
                         display: 'flex',
@@ -53,12 +55,12 @@ function About() {
                         fontSize: '25px',
                         color: 'grey'
                       }}>
-                      <BsArrowDownCircleFill style={{ marginLeft: '10px' }} />
+                      {/* <BsArrowDownCircleFill style={{ marginLeft: '10px' }} /> */}
                     </div>
                   </div>
                   <div className='About-header3-contents' >
                     <div className='blob' style={{ background: 'rgb(5, 92, 157)' }}>
-                      <BiBasketball size={28} color='#ffffff' />
+                      < BiBasketball size={28} color='#ffffff' />
                     </div>
                     <ImArrowRight2 />
                     <Typography variant='h6' style={{ fontSize: '16px' }}>

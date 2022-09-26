@@ -11,11 +11,7 @@ import { HiOutlineMenu } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from 'react';
 
-
-
 function App() {
-
-
   const[sidebar,setsidebar] = useState(false)
 
   const showSidebar = () => setsidebar(!sidebar)
@@ -79,7 +75,7 @@ function App() {
                 </Link>
              
          </div>
-            <div >
+            <div>
             <nav className={sidebar ? 'nav-menu-active':'nav-menu'}>
               <div className='nav-bar'>
               <div className='nav-menu-items'>
@@ -89,7 +85,6 @@ function App() {
                       <Link to={item.href}>
                         <span className='tittle-name'>{item.title}</span>
                       </Link>
-
                     </div>
                   )
                 })}
