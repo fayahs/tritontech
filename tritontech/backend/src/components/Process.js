@@ -75,16 +75,16 @@ function Process() {
 </div>
             </div>
             <div className='process-heading'>
-               <Typography variant='h6' style={{marginRight:'60px'}} >
-               Discovery & Analysis
+               <Typography variant='h6' style={{marginRight:'10px',color:'#777777'}} >
+                Student Studies &Discovery  Analysis
                </Typography>
-               <Typography variant='h6' style={{marginRight:'60px'}}>
+               <Typography variant='h6' style={{marginRight:'120px',color:'#777777'}}>
                Architecture Design
                </Typography>
-               <Typography variant='h6' style={{marginRight:'60px'}}>
+               <Typography variant='h6' style={{marginRight:'120px',color:'#777777'}}>
                Development & QA
                </Typography>
-               <Typography variant='h6'style={{marginRight:'60px'}}>
+               <Typography variant='h6'style={{marginRight:'120px',color:'#777777'}}>
                 Release
                </Typography>
             </div>
