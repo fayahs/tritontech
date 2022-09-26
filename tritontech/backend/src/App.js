@@ -57,7 +57,7 @@ function App() {
     <div className='App' >
 
       <div className="container">
-        
+        <div className='top-head'>
         <ul>
           <div className='logo-content'>
             <div className='logo-img'>
@@ -111,6 +111,7 @@ function App() {
           
       
         </ul>
+        </div>
      
         
 

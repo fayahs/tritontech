@@ -19,6 +19,7 @@ html{
   margin-right: 200px;
 
 }
+
 @media only screen and(min-width:600px){
   .logo-content{
   margin-right: 200px!important;
