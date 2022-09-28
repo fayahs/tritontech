@@ -25,71 +25,73 @@ function Process() {
           <div className='content-circle'>
             <div className='cir-1'>
               <div className='process-circle' style={{ background: '#ffffff' }}>
-                <img src={img4} alt='' style={{ width: '50%', height: '50%' }} />
+                <img  className="image"src={img4} alt='' style={{ width: '50%', height: '50%' }} />
               </div>
               <div className='process-icon-content'>
                 <BsDot size={40} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                
               </div>
-              <Typography variant='h6'  >
-              Student Studies & Discovery Analysis
+              <Typography variant='h6'  className='letter' >
+               Study And Discovery Analysis
               </Typography>
               
             </div>
             <div className='cir-1'>
             <div className='process-circle' style={{ background: '#ffffff' }}>
-              <img src={img5} alt='' style={{ width: '50%', height: '50%' }} />
+              <img  className="image" src={img5} alt='' style={{ width: '50%', height: '50%' }} />
             </div>
             <div className='process-icon-content'>
                 <BsDot size={40} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
               </div>
-              <Typography variant='h6' >
+              <Typography variant='h6' className='letter' >
                 Architecture Design
               </Typography>
             </div>
             <div className='cir-1'>
             <div className='process-circle' style={{ background: '#ffffff' }}>
-              <img src={img6} alt='' style={{ width: '50%', height: '50%' }} />
+              <img  className="image" src={img6} alt='' style={{ width: '50%', height: '50%' }} />
             </div>
             <div className='process-icon-content'>
                 <BsDot size={40} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                
+                
+                
               </div>
-              <Typography variant='h6' >
+              <Typography variant='h6' className='letter' >
                 Development & QA
               </Typography>
             </div>
             <div className='cir-1'>
             <div className='process-circle' style={{ background: '#ffffff' }}>
-              <img src={img7} alt='' style={{ width: '50%', height: '50%' }} />
+              <img  className="image"  src={img7} alt='' style={{ width: '50%', height: '50%' }} />
             </div>
 
             <div className='process-icon-content'>
                 <BsDot size={40} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
-                <BiDotsVerticalRounded size={30} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                <BsDot size={40} />
+                
+                
               </div>
-              <Typography variant='h6' >
+              <Typography variant='h6' className='letter' >
                 Release
               </Typography>
             </div>
