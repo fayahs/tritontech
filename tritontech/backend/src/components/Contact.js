@@ -19,7 +19,7 @@ function Contact() {
           <Typography variant='h5' className='title' style={{color:'#777777'}}>
             Want to discuss your <span style={{ fontWeight: '550',color:'#007FFF' }}>Project?</span>
           </Typography>
-          <Button style={{ textTransform: 'none', fontSize: '24px',color:'#007FFF' }} variant='text'>
+          <Button style={{ textTransform: 'none', fontSize: '24px', color: 'black',color:'#007FFF' }} variant='text'>
             Contact Us
           </Button>
 
