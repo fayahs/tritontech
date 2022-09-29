@@ -49,12 +49,12 @@ font-size: 15px!important;
 .App-header1{
   color: #000000;
 }
-#Home{
+/* #Home{
 display: flex;
 align-items: center;
 justify-content: flex-start;
-
-}
+ */
+/* } */
 /* 
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
