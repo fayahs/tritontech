@@ -22,16 +22,16 @@ const Crad = () => {
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
-                <Typography>
+                <Typography className='para-1'>
                   Technology & Ecosystem Audit
                 </Typography>
-                <Typography>
+                <Typography className='para-1'>
                   Digital Strategy
                 </Typography>
-                <Typography>
+                <Typography className='para-1'>
                   Digital Marketing
                 </Typography>
-                <Typography>
+                <Typography className='para-1'>
                   Digital Analytics
                 </Typography>
 
@@ -48,13 +48,13 @@ const Crad = () => {
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
-                <Typography>
+                <Typography className='para-1'>
                   Augmented & Virtual Reailty
 
                 </Typography>
-                <Typography> Machine Learning & AI</Typography>
-                <Typography> Internet of Things</Typography>
-                <Typography> Blockchain</Typography>
+                <Typography  className='para-1'> Machine Learning & AI</Typography>
+                <Typography  className='para-1'> Internet of Things</Typography>
+                <Typography  className='para-1'> Blockchain</Typography>
               </div>
             </div>
           </div>
@@ -67,15 +67,15 @@ const Crad = () => {
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
-                <Typography>
+                <Typography  className='para-1'>
                   Enterprise Resource Planning
 
                 </Typography>
-                <Typography> Point of Sale</Typography>
-                <Typography> Customer Relation Management
+                <Typography  className='para-1'> Point of Sale</Typography>
+                <Typography  className='para-1'> Customer Relation Management
                 </Typography>
-                <Typography> Data & Workflow Automation</Typography>
-                <Typography>
+                <Typography  className='para-1'> Data & Workflow Automation</Typography>
+                <Typography  className='para-1'>
                   Quality as a service
                 </Typography>
               </div>
@@ -93,12 +93,12 @@ const Crad = () => {
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
-                <Typography>
+                <Typography  className='para-1'>
                   Branding
 
                 </Typography>
-                <Typography> UX Strategy</Typography>
-                <Typography> Mobile & Web Design
+                <Typography  className='para-1'> UX Strategy</Typography>
+                <Typography  className='para-1'> Mobile & Web Design
                 </Typography>
 
               </div>
@@ -114,14 +114,14 @@ const Crad = () => {
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
-                <Typography>
+                <Typography  className='para-1'>
                   Content Management Systems
 
-                </Typography>
-                <Typography> e-Commerce Platforms</Typography>
-                <Typography> Custom Web Applications</Typography>
-                <Typography>Cloud Architecture Engineering &</Typography>
-                <Typography>Optimization</Typography>
+                </Typography >
+                <Typography  className='para-1'> e-Commerce Platforms</Typography>
+                <Typography  className='para-1'> Custom Web Applications</Typography>
+                <Typography  className='para-1'>Cloud Architecture Engineering &</Typography>
+                <Typography  className='para-1'>Optimization</Typography>
 
               </div>
             </div>
@@ -130,18 +130,15 @@ const Crad = () => {
             <div className="flip-card">
               <div className="front card" style={{ display: 'flex', gap: '20px' }}>
                 <img src={img19} alt='' style={{ width: '30%' }} />
-                <Typography style={{ fontWeight: '700', fontSize: '15px', color: '#007FFF' }}>
+                <Typography style={{ fontWeight: '700', fontSize: '15px', color: '#007FFF' }} className='para-1'>
                   MOBILE ENGINEERING
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
-                <Typography>
-                  Android Development
-
-                </Typography>
-                <Typography> iOS Development</Typography>
-                <Typography> React Native Development</Typography>
-                <Typography>Wearable Development</Typography>
+                <Typography  className='para-1'>Android Development</Typography>
+                <Typography  className='para-1'> iOS Development</Typography>
+                <Typography  className='para-1'> React Native Development</Typography>
+                <Typography  className='para-1'>Wearable Development</Typography>
 
               </div>
             </div>
