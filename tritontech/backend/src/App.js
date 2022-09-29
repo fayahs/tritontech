@@ -7,12 +7,8 @@ import About from './components/About';
 import Process from './components/Process';
 import Service from './components/Service';
 import Contact from './components/Contact';
-import { HiOutlineMenu } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from 'react';
-
-
-
 function App() {
 
 
@@ -62,11 +58,11 @@ function App() {
           <div className='logo-content'>
             <div className='logo-img'>
 
-              <img src={img} alt='triton' style={{ width: '100%', height: 'auto', marginTop: '50px'}} />
+              <img src={img} alt='triton' style ={{ width: '100%', height: 'auto', marginTop: '50px'}} />
             </div>
 
           </div>
-          <div className='flex-container'>
+          <div className='flex-container'  >
             <li><a href='#Home'><Typography variant='h6' component='h6' className='App-header1' style={{ fontSize: '20px' }}>
               Home
             </Typography></a></li>

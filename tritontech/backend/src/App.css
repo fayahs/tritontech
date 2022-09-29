@@ -202,15 +202,17 @@ justify-content:center;
 }
 
 .container ul{
-  /* position: fixed;  */
-   /* top: 0;  
-   left: 0; */
+  position: fixed;      
+  top: 0;  
+  left: 0; 
   width: 100%;
   justify-content: flex-end;
   display: flex;
-  height:80px;
+  height:100px;
   box-sizing: border-box;
+  background:#ffffff;
   z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   /* background-color: red; */
 }
 .container ul li{
@@ -220,6 +222,7 @@ justify-content:center;
   justify-content:space-around;
   height: 100%;
   float: left;
+
 }
 .flex-container{
   width: 50%;
@@ -232,14 +235,13 @@ justify-content:center;
 @media only screen and (max-width: 600px) {
   .flex-container{
     display: none !important;
-    background-color: yellow;
     font-size: small;
   } 
 }
 .navbars{
   min-width: 600px;
-  background: red;
   margin-top: 50px;
+
 
 
 }
@@ -292,6 +294,9 @@ justify-content:center;
   .navbar{
     display: none !important;
   }
+  .navbars{
+    display: none !important;
+  }
 }
 .nav-bar{
   display: flex;
@@ -310,8 +315,8 @@ justify-content:center;
   justify-content: flex-end;
   align-items: center;
   font-weight: 900;
-  margin-left: 150px;
   background: #ffffff;
+  margin: auto      ;
   position:relative;
 
 }
@@ -407,7 +412,6 @@ justify-content:center;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: red; */
 
 }
 li.a :focus{
