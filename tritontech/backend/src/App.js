@@ -52,18 +52,12 @@ function App() {
         </nav>
 
 
-
-
-
-
-
-
-        <section style={ {margin: 0} } id='Home'>
-          <Home />
-        </section>
-        <section id='About-Us'>
-          <About />
-        </section>
+        {/* <section id='Home'> */}
+         <Home/>
+        {/* </section> */}
+        {/* <section id='About-Us'> */}
+         <About/>
+        {/* </section> */}
         <section id='Process'>
           <Process />
         </section>

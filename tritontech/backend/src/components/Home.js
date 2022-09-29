@@ -32,7 +32,7 @@ function Home() {
             <Typography variant='h2' component='h2' style={{ fontWeight: '500' }} className='paragraph1'>  Drawing Your Dreams
             </Typography>
             <Typography variant='h2' component='h2' style={{ fontWeight: '700' }}>
-              <span style={{ fontWeight: '10' }} className='paragraph1'>your Digital  Forms! </span>
+              <span style={{ fontWeight: '10' }} className='paragraph1'>In Digital  Forms! </span>
             </Typography>
           </ReactPlaceholder>
           </div>
@@ -51,7 +51,7 @@ function Home() {
           <div className='btn'>
             <a href='#Contact' className='link'>
           <ReactPlaceholder showLoadingAnimation type='rect' rows={7} ready={!loading}>
-              <button  className='button' type="button"> <span> Bussines Enquires</span> <HiOutlineArrowNarrowRight size={20}/></button>
+              <button  className='button' type="button"> <span> Business Enquires</span> <HiOutlineArrowNarrowRight size={20}/></button>
           </ReactPlaceholder>
             </a>
           </div>
