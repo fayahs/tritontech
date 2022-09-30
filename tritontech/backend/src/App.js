@@ -2,8 +2,8 @@ import { colors, Link, Typography } from '@material-ui/core';
 import './App.css';
 import img from './images/Tritonlogo.png'
 import 'animate.css';
-import Home from './pages/Home';
-import About from './pages/About';
+import Home from './components/Home';
+import About from './components/About';
 import Process from './components/Process';
 import Service from './components/Service';
 import Contact from './components/Contact';
@@ -52,19 +52,19 @@ function App() {
         </nav>
 
 
-        {/* <section id='Home'> */}
+        <section id='Home' className='home-content'>
          <Home/>
-        {/* </section> */}
-        {/* <section id='About-Us'> */}
+        </section>
+        <section id='About-Us' className='about-content'>
          <About/>
-        {/* </section> */}
-        <section id='Process'>
+        </section>
+        <section id='Process' className='process-content'>
           <Process />
         </section>
-        <section id='Service'>
+        <section id='Service' className='service-content'>
           <Service />
         </section>
-        <section id='Contact'>
+        <section id='Contact' className='contact-content'>
           <Contact />
         </section>
 

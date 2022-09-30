@@ -28,11 +28,11 @@ function Home() {
       <div className='home-content'>
         <div className='home-main'>
           <div className='head'>
-          <ReactPlaceholder showLoadingAnimation type='rect' rows={1} ready={!loading}>
+          <ReactPlaceholder showLoadingAnimation type='rect' rows={1} ready={!loading} className='heading-tag'>
             <Typography variant='h2' component='h2' style={{ fontWeight: '500' }} className='paragraph1'>  Drawing Your Dreams
             </Typography>
-            <Typography variant='h2' component='h2' style={{ fontWeight: '700' }}>
-              <span style={{ fontWeight: '10' }} className='paragraph1'>In Digital  Forms! </span>
+            <Typography variant='h2' component='h2' style={{ fontWeight: '500' }}
+               className='paragraph1'> In Digital  Forms! 
             </Typography>
           </ReactPlaceholder>
           </div>
