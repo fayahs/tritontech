@@ -6,10 +6,8 @@ justify-content: space-around;
 height: 100vh !important;
 width: 100% !important;
 padding: 15px;
-background-color: #0500DA;
 }
 .home-main{
-background-color: chartreuse;
 height: 100% !important;
 
 width: 100% !important;
@@ -27,7 +25,6 @@ justify-content: center;
   display: flex;
   align-items: center;
   /* flex-direction: row; */
-  background-color: blueviolet;
 }
 .head{
   /* background-color: red; */
@@ -40,16 +37,13 @@ justify-content: center;
   color: #007FFF;
   width: 100%;
   /* margin-bottom: 25px; */
-  background-color: blueviolet;
 }
 .paragraph{
   /* background-color: aqua;  */
   height: 50%;
   width: 100%;
   padding: 15px !important;
-  /* display: flex; */
-  /* margin: auto; */
-  /* margin-top: 15px; */
+
 }
 .para-main{
   /* background-color: blue; */
@@ -111,7 +105,7 @@ height: 100%;
 
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .home{
     display: flex;
   align-items: center;
@@ -119,16 +113,11 @@ height: 100%;
   /* margin: auto; */
   height: 100vh !important;
   width: 100% !important;
-  /* padding: 15px; */
-  background-color: #0500DA;
   }
-  .home-content{
-    background-color: brown;
-  }
+
   .home-main{
     /* display: flex; */
     flex-direction: column;
-    background-color: chartreuse;
     height: 100% !important;
     
     width: 100% !important;
@@ -143,19 +132,20 @@ height: 100%;
     
     }
     .head{
-      background-color: yellow;
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 27%;
+      height: 23%;
       align-items: center;
+      font-size: 10px !important;
+      text-align: center !important;
     }
     .paragraph1{
-      background-color: blanchedalmond;
       width: 100%;
       text-align: center;
       display: flex;
       align-items: flex-end;
+      font-size: 28px !important;
       height: 50%;
       /* font-weight: 100 !important; */
 
@@ -173,7 +163,6 @@ height: 100%;
       letter-spacing: -0.00833em;
   }
   .paragraph{
-    background-color: rgb(241, 20, 171) !important;
     height: 57% !important;
     width: 100%;
     display: flex;
@@ -188,7 +177,6 @@ height: 100%;
 
   }
   .para-main{
-    background-color: #0500DA;
     height: 100%;
     width: 95% !important;
     /* text-align: center;   */
@@ -199,39 +187,37 @@ height: 100%;
     font-size: 13px;
   }
   .btn{
-    background-color: #e7e6f0;
     width: 100% !important;
     height: 9%;
     display: flex !important;
+    align-items: center !important;
     /* padding-left: 15px; */
   }
   a .link{
     background-color: aqua !important;
   }
   .button{
-    background-color: yellow !important;
-    width: 100%;
+      width: 100%;
     display: flex !important;
     align-items: flex-end !important;
     /* padding: 0% !important; */
   }
 
 }
+
 @media (max-width: 660px) {
   .home-content{
     display: flex;
     flex-direction: column-reverse !important;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   /* margin: auto; */
   height: 100vh !important;
   width: 100% !important;
   /* padding: 15px; */
-  background-color: #da00a0;
   }
 
   .home{
-    background-color: #da00a0;
     margin: 0% !important;
     padding: 0%;
     display: flex !important;
@@ -240,7 +226,6 @@ height: 100%;
     /* height: 120px !important; */
   }
   .home-content{
-    background-color: yellow;
     height: 100% !important;
     position: relative;
 
@@ -248,10 +233,9 @@ height: 100%;
     position: relative;
     /* top: 36px; */
     height: 80% !important;
-    width: 50% !important;
+    width: 50% !important ;
   }.home-main{
     margin: 0%;
-    background-color: #0500DA;
     padding: 0%;
     position: relative;
     bottom: 20px;

@@ -24,7 +24,7 @@ function About() {
 
             <div className='About-header1'>
               <Typography variant='h4' component='h2' >
-                <span className='paragraph11' >Who We Are?</span>
+                <span className='paragraph11' style={{color:'#007fff'}} >Who We Are?</span>
               </Typography>
             </div>
             <div className='About-header2'>
@@ -42,8 +42,8 @@ function About() {
               <div className='About-header3-contents' style={{ display: 'flex', alignItems: 'center', paddingLeft: '15px'  }}>
                 <div style={{ width: '70%', height: '100%', display: 'flex', alignItems: 'center' }}className='about-header4' >
                   <Typography variant='h6' style={{color:'#777777'}}>
-                    <span style={{ fontSize: '25px', color: '' }} className='paragraph12'> Reasons</span> 
-                    <span style ={{fontSize:'25px',color:''}} className="paragraph13"> why We might be the right fit for you</span>
+                    {/* <span style={{ fontSize: '25px', color: '' }} className='paragraph12'> Reasons</span>  */}
+                    {/* <span style ={{fontSize:'25px',color:''}} className="paragraph13"> why We might be the right fit for you</span> */}
                     
                 
                   </Typography>

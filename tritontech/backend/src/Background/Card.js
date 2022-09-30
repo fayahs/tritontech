@@ -93,10 +93,7 @@ const Crad = () => {
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
-                <Typography  className='para-1'>
-                  Branding
-
-                </Typography>
+                
                 <Typography  className='para-1'> UX Strategy</Typography>
                 <Typography  className='para-1'> Mobile & Web Design
                 </Typography>

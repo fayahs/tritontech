@@ -28,7 +28,7 @@ function Process() {
                 <img  className="image"src={img4} alt='' style={{ width: '50%', height: '50%' }} />
               </div>
               <div className='process-icon-content'>
-                <BsDot size={40} />
+                <BsDot size={100} />
                 <BsDot size={40} />
                 <BsDot size={40} />
                 <BsDot size={40} />
@@ -46,7 +46,7 @@ function Process() {
               <img  className="image" src={img5} alt='' style={{ width: '50%', height: '50%' }} />
             </div>
             <div className='process-icon-content'>
-                <BsDot size={40} />
+                <BsDot size={100} />
                 <BsDot size={40} />
                 <BsDot size={40} />
                 <BsDot size={40} />
@@ -62,7 +62,7 @@ function Process() {
               <img  className="image" src={img6} alt='' style={{ width: '50%', height: '50%' }} />
             </div>
             <div className='process-icon-content'>
-                <BsDot size={40} />
+                <BsDot size={100} />
                 <BsDot size={40} />
                 <BsDot size={40} />
                 <BsDot size={40} />
@@ -82,7 +82,7 @@ function Process() {
             </div>
 
             <div className='process-icon-content'>
-                <BsDot size={40} />
+                <BsDot size={100} />
                 <BsDot size={40} />
                 <BsDot size={40} />
                 <BsDot size={40} />

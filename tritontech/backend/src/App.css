@@ -19,15 +19,17 @@ html{
   display: flex;
   flex-direction: column;
   
-  background-color: brown;
   margin: auto;
 }
+
+  
+
 nav{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color:#FFF;
+  background-color:#ffffff  ;
   color: #FFF;
   position: sticky;
   top: 0%;
@@ -102,10 +104,13 @@ nav{
   margin-top: 0px;
   transform: rotate(-405deg);
 }
+
 @media (max-width: 660px) {
   .menu-button-container {
     display: flex;
   }
+
+
   .nav{
     display: flex;
     flex-direction: row;
@@ -154,7 +159,7 @@ nav{
     color: white;
     position: relative;
     top: 39px;
-    background-color: #FFF;
+    background-color: #FFF  ;
     /* background: linear-gradient(90deg, rgba(0,127,255,0.4085783971791842) 0%, rgba(0,255,1,0.3273459041819853) 35%, */
    /* rgba(255,253,0,0.5542366604845064) 100%); */
   }
@@ -172,32 +177,25 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: column;
-    
-    background-color: brown;
-    margin: auto;
+      margin: auto;
   }
 } 
 
 
 .home-content{
-  background-color: aqua;
   height: 100vh;
   width:100% ;
 }
 .about-content{
-  background-color: blueviolet;
   /* height: 100vh; */
   width:100%;
 }
 .process-content{
-  background-color: chartreuse;
   height: 100vh;
   width: 100%;
 }
 .service-content{
-  background-color: darkmagenta;
   height: 100vh;
 }.contact-content{
-  background-color: rosybrown;
   height: 100vh;
 }

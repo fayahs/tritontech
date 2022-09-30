@@ -32,19 +32,19 @@ function App() {
             <div className='menu-button'></div>
           </label>
           <ul className="menu">
-            <li><a href='#Home'><Typography variant='h6' className='App-header1' style={{ fontWeight: '700', fontSize: '20px', color:'#007FFF' }}>
+            <li><a href='#Home'><Typography variant='h6' className='App-header1' style={{ fontWeight: '500', fontSize: '20px', color:'#007FFF' }}>
               Home
             </Typography></a></li>
-            <li><a href='#About-Us'><Typography variant='h6' className='App-header1' style={{ fontWeight: '700', fontSize: '20px',color:'#007FFF' }} >
+            <li><a href='#About-Us'><Typography variant='h6' className='App-header1' style={{ fontWeight: '500', fontSize: '20px',color:'#007FFF' }} >
               About
             </Typography> </a></li>
-            <li><a href='#Process'><Typography variant='h6' className='App-header1' style={{ fontWeight: '700', fontSize: '20px' ,color:'#007FFF'}}>
+            <li><a href='#Process'><Typography variant='h6' className='App-header1' style={{ fontWeight: '500', fontSize: '20px' ,color:'#007FFF'}}>
               Process
             </Typography> </a></li>
-            <li><a href='#Service'><Typography variant='h6' className='App-header1' style={{ fontWeight: '700', fontSize: '20px',color:'#007FFF' }} >
+            <li><a href='#Service'><Typography variant='h6' className='App-header1' style={{ fontWeight: '500', fontSize: '20px',color:'#007FFF' }} >
               Services
             </Typography> </a></li>
-            <li><a href='#Contact'><Typography variant='h6' className='App-header1' style={{ fontWeight: '700', fontSize: '20px',color:'#007FFF' }} >
+            <li><a href='#Contact'><Typography variant='h6' className='App-header1' style={{ fontWeight: '500', fontSize: '20px',color:'#007FFF' }} >
               Contact
             </Typography> </a></li>
           </ul>

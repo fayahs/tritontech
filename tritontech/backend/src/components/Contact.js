@@ -37,7 +37,7 @@ function Contact() {
                 
               <span > 219, First Floor, Main Road,</span> 
               
-              <span >Kadayanallur,Thenkasi,</span>    
+              <span >Kadayanallur,Tenkasi,</span>    
                <span >Tamilnadu ,India</span> 
          
 
@@ -138,11 +138,11 @@ function Contact() {
             </Typography> </a>
 
           </div>
-          <div className='Contacts-content2' >
-            <Typography variant='h6' className='last-con' style={{ fontSize: '20px',color:'#000000',fontWeight:'700',marginLeft:'28px' }} >
+          <div className='Contacts-content2'  style={{display:'flex',flexDirection:'column',width:''}}>
+            <Typography variant='h6' className='social' style={{ fontSize: '20px',color:'#000000',fontWeight:'700' }} >
               SOCIAL
             </Typography>
-            <div style={{display:'flex',alignItems:'center',justifyContent:'space-evenly',width:'50% '}}>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'space-evenly',width:'50% '}} className='icon1'>
             <a href='#sec2' className='link1'><Typography variant='h6' component='h2' style={{ fontSize: '14px' }}>
               <span >< AiFillTwitterCircle size={30} /></span>
             </Typography > </a>
