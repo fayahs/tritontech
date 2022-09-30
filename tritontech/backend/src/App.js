@@ -4,11 +4,10 @@ import img from './images/Tritonlogo.png'
 import 'animate.css';
 import Home from './components/Home';
 import About from './components/About';
-
 import Process from './components/Process';
 import Service from './components/Service';
 import Contact from './components/Contact';
-import { HiOutlineMenu } from "react-icons/hi";
+// import { HiOutlineMenu } from "react-icons/hi";
 // import { GiHamburgerMenu } from "react-icons/gi";
 // import { useState } from 'react';
 
@@ -22,7 +21,7 @@ function App() {
   return (
     <div className='App' >
       <div className="container">
-dfghjkotrdchjkl,mnbdr7899876trfgiolkjhgr6789oijhi987yuiolk
+
         <nav className='navBar'>
           {/* <section class="top-nav"> */}
           <div className='logo-img'>
