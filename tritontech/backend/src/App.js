@@ -4,6 +4,7 @@ import img from './images/Tritonlogo.png'
 import 'animate.css';
 import Home from './components/Home';
 import About from './components/About';
+
 import Process from './components/Process';
 import Service from './components/Service';
 import Contact from './components/Contact';
