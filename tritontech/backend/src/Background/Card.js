@@ -1,4 +1,5 @@
 import './Background.css'
+import React from 'react'
 import img14 from '../images/transformation.png'
 import img15 from '../images/innovation.png'
 import img16 from '../images/enterprise.png'
@@ -8,6 +9,8 @@ import img19 from '../images/mobile.png'
 
 import { Typography } from '@material-ui/core'
 const Crad = () => {
+
+  
   return (
     <>
 
@@ -93,6 +96,7 @@ const Crad = () => {
                 </Typography>
               </div>
               <div className="back card" style={{ color: '#777777' }}>
+                
                 
                 <Typography  className='para-1'> UX Strategy</Typography>
                 <Typography  className='para-1'> Mobile & Web Design

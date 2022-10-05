@@ -7,6 +7,51 @@ import img18 from '../images/ringer-volume.png'
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 function Contact() {
+  const arr1=[
+    {
+        id: 1,
+        name: 'jalal'
+    },
+    {
+        id: 2,
+        name: 'fayaz'
+    },
+    {
+        id: 1,
+        name: 'jalal'
+    },
+    {
+        id: 3,
+        name: 'badhusha'
+    },
+    {
+        id: 1,
+        name: 'jalal'
+    },
+    {
+        id: 2,
+        name: 'fayaz'
+    },
+    {
+        id: 3,
+        name: 'badhusha'
+    }
+];
+const uniqueIds = [];
+
+const unique = arr1.filter(element => {
+  const isDuplicate = uniqueIds.includes(element.name);
+
+  if (!isDuplicate) {
+    uniqueIds.push(element.name);
+
+    return true;
+  }
+
+});
+
+
+console.log(unique);
   return (
     <div className="Contact-main">
       
@@ -16,7 +61,7 @@ function Contact() {
        Magnam dolores commodi suscipit.
        </Typography> */}
           <Typography variant='h5' className='title' style={{color:'#777777'}}>
-            Want to discuss your  <span style={{ fontWeight: '550',color:'#007FFF' }}>Project?</span>
+            Want to discuss your  <span style={{ fontWeight: '550',color:'#007FFF' }} className='margin1'>Project?</span>
           </Typography>
           <Button style={{ textTransform: 'none', fontSize: '24px',color:'#007FFF' }} variant='text'>
             Contact Us
@@ -139,7 +184,7 @@ function Contact() {
 
           </div>
           <div className='Contacts-content2'  style={{display:'flex',flexDirection:'column',width:''}}>
-            <Typography variant='h6' className='social' style={{ fontSize: '20px',color:'#000000',fontWeight:'700' }} >
+            <Typography variant='h6' className='social' style={{ fontSize: '40px',color:'#000000',fontWeight:'700' }} >
               SOCIAL
             </Typography>
             <div style={{display:'flex',alignItems:'center',justifyContent:'space-evenly',width:'50% '}} className='icon1'>

@@ -10,6 +10,10 @@ import img3 from '../images/img-about-01.png'
 
 
 function About() {
+  const arr1=['audi', 'benz', 'bmw'];
+  arr1.splice(2,0,'volvo');
+  console.log(arr1)
+
   return (
     <div className='About'>
       <div className='About-content-hr'>

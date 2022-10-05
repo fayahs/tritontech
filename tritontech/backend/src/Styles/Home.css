@@ -3,12 +3,12 @@
 align-items: center;
 justify-content: space-around;
 /* margin: auto; */
-height: 100vh !important;
+height: 100vh ;
 width: 100% !important;
 padding: 15px;
 }
 .home-main{
-height: 100% !important;
+height: 100% ;
 
 width: 100% !important;
 padding: 20px !important;
@@ -21,7 +21,7 @@ justify-content: center;
 
 .home-content{
   width: 100% ;
-  height:100%;
+  height:80%;
   display: flex;
   align-items: center;
   /* flex-direction: row; */
@@ -66,6 +66,19 @@ justify-content: center;
 .home-content-img{
   width: 100% !important;
   height: 70% !important;
+  
+}
+.home-content-img:hover{
+  -webkit-animation: anime 2s infinite  alternate;
+  animation: anime 2s infinite  alternate;
+}
+@-webkit-keyframes anime  {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes anime {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
 }
 .btn{
   /* background-color: #0500DA; */
@@ -104,6 +117,7 @@ width: 100%;
 height: 100%;
 
 }
+
 
 @media only screen and (max-width: 768px) {
   .home{
