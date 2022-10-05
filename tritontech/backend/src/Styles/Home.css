@@ -6,6 +6,7 @@ justify-content: space-around;
 height: 100vh ;
 width: 100% !important;
 padding: 15px;
+/* background-color: aqua; */
 }
 .home-main{
 height: 100% ;
@@ -35,7 +36,8 @@ justify-content: center;
 }
 .paragraph1{
   color: #007FFF;
-  width: 100%;
+  width: 580px;
+  height: 60%;
   /* margin-bottom: 25px; */
 }
 .paragraph{
@@ -62,6 +64,7 @@ justify-content: center;
   height: 80%;
   width: 100% !important;
   justify-content: center;
+  /* background-color: #007FFF; */
 }
 .home-content-img{
   width: 100% !important;
@@ -231,6 +234,10 @@ height: 100%;
   /* padding: 15px; */
   }
 
+  .para-main{
+    position: relative;
+    bottom: 40px;
+  }
   .home{
     margin: 0% !important;
     padding: 0%;
@@ -239,12 +246,29 @@ height: 100%;
     justify-content: space-around;
     /* height: 120px !important; */
   }
+  .head{
+    /* background-color: red; */
+    height: 17%;
+    width: 100% !important;
+    padding: 10px !important;
+    position: relative;
+    bottom: 43px;
+    /* margin-bottom: 10px; */
+  }
+  .paragraph1{
+    color: #007FFF;
+    /* background-color: yellow; */
+    width: 270px !important;
+    height: 70%;
+    
+    /* margin-bottom: 25px; */
+  }
   .home-content{
     height: 100% !important;
     position: relative;
 
   }.home-content-img{
-    position: relative;
+    /* position: relative; */
     /* top: 36px; */
     height: 80% !important;
     width: 50% !important ;
@@ -254,8 +278,14 @@ height: 100%;
     position: relative;
     bottom: 20px;
   }
-
+  .btn{
+    position: relative !important;
+    bottom: 37px !important;
+  }
+ 
 }
+
+
 
 /* 
 @media only screen and(max-width:300px){

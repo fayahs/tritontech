@@ -42,7 +42,7 @@ function Home() {
             <Typography  >
               <p className='para-main'>Visualizing your dreams in the form of digitalization is an interesting and meaningful thing.
                 Dream scenes are more fantasy than real scenes, conversion of this dream into real is a challenging part. Triton  Tech Labs takes up those challenges, by converting the dream scenes into smaller scene and recreate by applying process to make it happen into real world scenes.
-                Architecting your dreams and making them happen in digitalized usage form is the success part of our team.
+                Architect your dreams and making them happen in digitalized usage form is the success part of our team.
               </p>
             </Typography>
             </ReactPlaceholder>

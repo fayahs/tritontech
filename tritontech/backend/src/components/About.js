@@ -17,10 +17,8 @@ function About() {
   return (
     <div className='About'>
       <div className='About-content-hr'>
-        <div className='About-content-empty-header'  style={{ color: 'transparent' }}>
-..
-        </div>
-        <div className='About-content-hr-attributes'>
+      
+        {/* <div className='About-content-hr-attributes'> */}
           <div className='About-content-hr-attributes-img' >
             <img src={img3} alt='' className='About-img' />
           </div>
@@ -34,7 +32,7 @@ function About() {
             <div className='About-header2'>
               <Typography component='h2' variant='h6'>
                 <span className='About-content'>
-                  <p className='para-main'>
+                  <p className='para-main-about'>
                     Triton Tech Labs, a digital technology expert, enables the transformation of your business into a digital product
                      and cloud solution. We use right-fit technology to streamline the existing business platform to a modern
                       business platform to suit the dynamic market and automate everyday activities by providing customized digital solutions.
@@ -99,7 +97,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     </div>
   )

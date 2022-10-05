@@ -193,10 +193,16 @@ nav{
 }
 .process-content{
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* background-color: blue; */
 }
 .service-content{
   height: 100vh;
+  /* display: flex; */
+  /* align-items: center; */
 }.contact-content{
   height: 100vh;
 }

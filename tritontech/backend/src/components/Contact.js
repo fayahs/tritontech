@@ -183,7 +183,7 @@ console.log(unique);
             </Typography> </a>
 
           </div>
-          <div className='Contacts-content2'  style={{display:'flex',flexDirection:'column',width:''}}>
+          <div className='Contacts-content2'  >
             <Typography variant='h6' className='social' style={{ fontSize: '40px',color:'#000000',fontWeight:'700' }} >
               SOCIAL
             </Typography>
@@ -192,7 +192,7 @@ console.log(unique);
               <span >< AiFillTwitterCircle size={30} /></span>
             </Typography > </a>
             <a href='https://www.facebook.com/profile.php?id=100076158587804' style={{ display: 'flex' }} className='link1'><Typography variant='h6' component='h2' style={{ fontSize: '14px' }}>
-              <span >< BsFacebook size={30} /></span>
+              <span >< BsFacebook size={25} /></span>
 
             </Typography> </a>
             </div>

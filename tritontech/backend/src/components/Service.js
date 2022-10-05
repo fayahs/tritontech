@@ -10,10 +10,6 @@ function Service(){
       </div> */}
       <div className="Service-main-hr">
             <div className="Service-main-hr-content1">
-              <Button style={{textTransform:'none',width:'10%',borderRadius:'10px',fontSize:'24px',color:'#007FFF'}} >
-                Service
-              </Button>
-            
               <Typography variant="h5" className="para-main">
               what can we do for you?
               </Typography>

@@ -37,7 +37,7 @@ function Process() {
                 
               </div>
               <Typography variant='h6'  className='letter' >
-               Study And Discovery Analysis
+               Study,Discovery&Analysis
               </Typography>
               
             </div>
