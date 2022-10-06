@@ -1,4 +1,4 @@
-import { colors, Link, Typography } from '@material-ui/core';
+import {  Typography } from '@material-ui/core';
 import './App.css';
 import img from './images/Tritonlogo.png'
 import 'animate.css';
@@ -7,9 +7,7 @@ import About from './components/About';
 import Process from './components/Process';
 import Service from './components/Service';
 import Contact from './components/Contact';
-// import { HiOutlineMenu } from "react-icons/hi";
-// import { GiHamburgerMenu } from "react-icons/gi";
-// import { useState } from 'react';
+
 
 
 
@@ -23,7 +21,7 @@ function App() {
       <div className="container">
 
         <nav className='navBar'>
-          {/* <section class="top-nav"> */}
+        
           <div className='logo-img'>
             <img src={img} alt='triton' className='img1' />
           </div>
@@ -48,7 +46,7 @@ function App() {
               Contact
             </Typography> </a></li>
           </ul>
-          {/* </section> */}
+          
         </nav>
 
 

@@ -18,7 +18,7 @@ function About() {
     <div className='About'>
       <div className='About-content-hr'>
       
-        {/* <div className='About-content-hr-attributes'> */}
+       
           <div className='About-content-hr-attributes-img' >
             <img src={img3} alt='' className='About-img' />
           </div>
@@ -29,10 +29,12 @@ function About() {
                 <span className='paragraph11' style={{color:'#007fff'}} >Who We Are?</span>
               </Typography>
             </div>
+            
             <div className='About-header2'>
+              
               <Typography component='h2' variant='h6'>
                 <span className='About-content'>
-                  <p className='para-main-about'>
+                  <p className='para-main-about' style={{ color: '#777777'}}>
                     Triton Tech Labs, a digital technology expert, enables the transformation of your business into a digital product
                      and cloud solution. We use right-fit technology to streamline the existing business platform to a modern
                       business platform to suit the dynamic market and automate everyday activities by providing customized digital solutions.
@@ -43,12 +45,7 @@ function About() {
             <div className='About-header3'>
               <div className='About-header3-contents' style={{ display: 'flex', alignItems: 'center', paddingLeft: '15px'  }}>
                 <div style={{ width: '70%', height: '100%', display: 'flex', alignItems: 'center' }}className='about-header4' >
-                  <Typography variant='h6' style={{color:'#777777'}}>
-                    {/* <span style={{ fontSize: '25px', color: '' }} className='paragraph12'> Reasons</span>  */}
-                    {/* <span style ={{fontSize:'25px',color:''}} className="paragraph13"> why We might be the right fit for you</span> */}
-                    
-                
-                  </Typography>
+                  
                 </div>
                 <div className='About-icon'
                   style={{
@@ -97,7 +94,7 @@ function About() {
               </div>
             </div>
           </div>
-        {/* </div> */}
+        
       </div>
     </div>
   )

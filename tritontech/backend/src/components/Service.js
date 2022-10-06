@@ -6,15 +6,16 @@ import Crad from "../Background/Card";
 function Service(){
     return(
         <div className="Service-main">
-               {/* <div className='About-content-empty-header'  style={{minHeight:'100px'}}>
-      </div> */}
+      
       <div className="Service-main-hr">
             <div className="Service-main-hr-content1">
-              <Typography variant="h5" className="para-main">
-              what can we do for you?
-              </Typography>
+             
             </div>
             <div className="Service-main-hr-content2">
+            <Typography variant='h4' component='h2' className="con-head">
+                <span className='paragraph11' style={{color:'#007fff'}} >What Can We Do For You?</span>
+              </Typography>
+           
                <Crad/>
             </div>
       </div>

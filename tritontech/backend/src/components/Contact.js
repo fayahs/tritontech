@@ -7,65 +7,19 @@ import img18 from '../images/ringer-volume.png'
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 function Contact() {
-  const arr1=[
-    {
-        id: 1,
-        name: 'jalal'
-    },
-    {
-        id: 2,
-        name: 'fayaz'
-    },
-    {
-        id: 1,
-        name: 'jalal'
-    },
-    {
-        id: 3,
-        name: 'badhusha'
-    },
-    {
-        id: 1,
-        name: 'jalal'
-    },
-    {
-        id: 2,
-        name: 'fayaz'
-    },
-    {
-        id: 3,
-        name: 'badhusha'
-    }
-];
-const uniqueIds = [];
+ 
 
-const unique = arr1.filter(element => {
-  const isDuplicate = uniqueIds.includes(element.name);
-
-  if (!isDuplicate) {
-    uniqueIds.push(element.name);
-
-    return true;
-  }
-
-});
-
-
-console.log(unique);
   return (
     <div className="Contact-main">
       
       <div className='Contact-main-hr'>
         <div className='Contacts-headers'>
-          {/* <Typography>
-       Magnam dolores commodi suscipit.
-       </Typography> */}
-          <Typography variant='h5' className='title' style={{color:'#777777'}}>
-            Want to discuss your  <span style={{ fontWeight: '550',color:'#007FFF' }} className='margin1'>Project?</span>
-          </Typography>
-          <Button style={{ textTransform: 'none', fontSize: '24px',color:'#007FFF' }} variant='text'>
-            Contact Us
-          </Button>
+         
+        <Typography variant='h4' component='h2'  className='con-head'>
+                <span className='paragraph11' style={{color:'#007fff'}} > Want To Discuss Your  Project?</span>
+              </Typography>
+         
+         
 
 
         </div>
@@ -131,7 +85,7 @@ console.log(unique);
         </div>
         <div className='Contacts-content1'>
           <div className='Contacts-content2'>
-            <Typography variant='h6' className='last-con' style={{color:'#000000',fontWeight:'700'}} >
+            <Typography variant='h6' className='last-con' style={{color:'#000000'}} >
               MENU
             </Typography>
             <a href='#sec2' className='link1'><Typography variant='h6' component='h2' style={{ fontSize: '12px' }}>
@@ -156,7 +110,7 @@ console.log(unique);
 
           </div>
           <div className='Contacts-content2' >
-            <Typography variant='h6'  className='last-con' style={{color:'#000000',fontWeight:'700'}}>
+            <Typography variant='h6'  className='last-con' style={{color:'#000000'}}>
               SERVICES
             </Typography>
             <a href='#sec2' className='link1'><Typography variant='h6' component='h2' style={{ fontSize: '12px' }}>
@@ -185,7 +139,7 @@ console.log(unique);
           </div>
           <div className='Contacts-content2'  >
             <div className='social' >
-            <Typography variant='h6'  style={{ fontSize: '20px',color:'#000000',fontWeight:'600',marginLeft:'25px' }} >
+            <Typography variant='h6' className='last-con' style={{ color:'#000000'}} >
               SOCIAL
             </Typography>
             </div>
@@ -199,11 +153,11 @@ console.log(unique);
 
             </Typography> </a>
             </div>
-            <div style={{display:'flex',alignItems:'center',justifyContent:'space-evenly',width:'50% '}}>
+            <div className='icon1' style={{display:'flex',alignItems:'center',justifyContent:'space-evenly',width:'50% '}}>
             <a href='https://www.linkedin.com/company/triton-tech-labs/'><Typography variant='h6' component='h2' style={{ fontSize: '14px' }}>
               <span >< AiFillLinkedin size={30} color='grey '/></span>
             </Typography> </a>
-            <a href='https://www.linkedin.com/company/triton-tech-labs/'><Typography variant='h6' component='h2' style={{ fontSize: '14px' }}>
+            <a href='https://instagram.com/triton_tech_labs?igshid=YmMyMTA2M2Y='><Typography variant='h6' component='h2' style={{ fontSize: '14px' }}>
               <span >< AiFillInstagram size={30} color='grey' /></span>
             </Typography> </a>
             </div>

@@ -2,10 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../Styles/Home.css';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import img2 from '../images/3dobj2.png';
-
-  import {  Typography } from '@material-ui/core';
-// import { loadFull } from 'tsparticles';
-
+import {  Typography } from '@material-ui/core';
 import ReactPlaceholder from 'react-placeholder';
 import "react-placeholder/lib/reactPlaceholder.css";
 

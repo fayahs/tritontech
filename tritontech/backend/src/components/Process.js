@@ -17,8 +17,7 @@ function Process() {
 
         <div className='process-main'>
      
-        {/* <div className='About-content-empty-header' >
-        </div> */}
+        
         <div className='Process-img'>
         </div>
 
@@ -37,7 +36,7 @@ function Process() {
                 
               </div>
               <Typography variant='h6'  className='letter' >
-               Study,Discovery&Analysis
+               Study,Discovery & Analysis
               </Typography>
               
             </div>
