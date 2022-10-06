@@ -2,7 +2,7 @@
   /* background-color: red; */
   height: 100%;
   display: flex;
-  width: 97%;
+  width: 100%;
   flex-direction: column;
   /* background-color: blue; */
   
@@ -126,7 +126,7 @@ flex-direction: column;
         flex-direction: column;
         justify-content: space-around;
         position: relative;
-        bottom: 247px;
+        bottom: 322px;
         overflow-wrap: anywhere;
         
         }

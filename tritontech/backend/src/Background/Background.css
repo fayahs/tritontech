@@ -3,7 +3,7 @@
   height: 100% !important;
   display: flex;
   flex-direction: column;
-  gap: 20px;  
+  gap: 20px!important ;
 }
 
 
@@ -81,14 +81,15 @@
  
 
   .Main-card{
-    width: 100%;
+    width: 70% !important;
     height: 100% !important;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 100px;
-    gap: 20px;
+    /* padding-left:10px ; */
+    /* gap: 20px; */
   }
   .Main-card1{
     display: flex !important;

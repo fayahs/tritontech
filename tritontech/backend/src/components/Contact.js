@@ -184,9 +184,12 @@ console.log(unique);
 
           </div>
           <div className='Contacts-content2'  >
-            <Typography variant='h6' className='social' style={{ fontSize: '40px',color:'#000000',fontWeight:'700' }} >
+            <div className='social' >
+            <Typography variant='h6'  style={{ fontSize: '20px',color:'#000000',fontWeight:'600',marginLeft:'25px' }} >
               SOCIAL
             </Typography>
+            </div>
+            <div className='icons'>
             <div style={{display:'flex',alignItems:'center',justifyContent:'space-evenly',width:'50% '}} className='icon1'>
             <a href='#sec2' className='link1'><Typography variant='h6' component='h2' style={{ fontSize: '14px' }}>
               <span >< AiFillTwitterCircle size={30} /></span>
@@ -205,7 +208,7 @@ console.log(unique);
             </Typography> </a>
             </div>
             
-
+            </div>
 
           </div>
         </div>
